@@ -3,12 +3,15 @@
 }
 /* Styling header */
 .headsection {
+	margin-top: 20px;
 	height: 80px;
 }
 
 .navbar{
 	background-color: #3355aa;
 	height:40px;
+	border-radius: 0;
+	border:none; 
 }
 
 .nav.navbar-nav li a{
@@ -107,6 +110,7 @@ figcaption{
 }
 
 .section3{
+	padding-bottom: 75px;
 	background-color: #f2f2f2;
 }
 
@@ -140,7 +144,6 @@ h3 {
 /* Footer Styling */
 
 footer {
-	margin-top: 75px;
 	background-color: #333333;
 }
 
@@ -184,23 +187,20 @@ footer {
 	content:"";
 }
 
-/* Section 2 of footer styling */
-.fSection2 p{
-	color: #d9d9d9;
-	font-size: 11px;
+
+.fSection1 {
+	border-bottom: 1px solid #3d3d3d;
+}
+
+.fSection{
+	padding-bottom: 35px;
+}
+
+.fSection p{
+	padding-top: 15px;
 	padding-left: 15px;
+	color: #d9d9d9;
 }
-
-.fSection2 hr {
-	border-color: #3d3d3d;
-}
-
-.fSection2 {
-	position: relative;
-	top: -20px;
-	margin-bottom: 35px;
-}
-
 
 
 
